@@ -1,11 +1,11 @@
 # TD2-Dev-Ops-Protin-Loctin
 
-Our names are :
+Our names are:
 - Thomas Loctin
 - Augustin Protin
 
-We are currently in ILIA specialisation.
-you ca find [Athoms](https://github.com/Athoms71) and [Augustin](https://github.com/augustinprotin)
+We are currently in the ILIA specialization.  
+You can find [Thomas](https://github.com/Athoms71) and [Augustin](https://github.com/augustinprotin) on GitHub.
 
-Here is a picture oaf us when we were child, already working :
+Here is a picture of us as children, already working:
 ![](https://images.radio-canada.ca/v1/ici-premiere/16x9/sciences-ecole-primaire.jpg)
