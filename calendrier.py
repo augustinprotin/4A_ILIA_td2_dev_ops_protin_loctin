@@ -19,13 +19,13 @@ def create_event(T1: datetime, t: int, n: str) -> tuple:
     return event
 
 
-def get_events() -> list:
+def get_events(list_events: list) -> list:
     """
     Retourne la liste de tous les événements
     Returns:
         list: Liste des événements
     """
-    return events
+    return list_events
 
 
 def get_sorted_events() -> list:
