@@ -17,3 +17,12 @@ def create_event(T1: datetime, t: int, n: str) -> tuple:
     event = (T1, t, n)
     events.append(event)
     return event
+
+
+def get_events() -> list:
+    """
+    Retourne la liste de tous les événements
+    Returns:
+        list: Liste des événements
+    """
+    return events
