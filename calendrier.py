@@ -35,3 +35,14 @@ def get_sorted_events() -> list:
         list: Liste des événements triés
     """
     return sorted(events, key=lambda param: param[0])
+
+
+def get_first_event_name() -> str:
+    """
+    Retourne le nom du premier événement dans la liste
+    Returns:
+        str: Nom de l'événement ou None si la liste est vide
+    """
+    if not events:
+        return None
+    return events[0][2]
