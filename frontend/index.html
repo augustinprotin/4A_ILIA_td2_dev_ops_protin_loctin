@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Ma page Web</title>
+	</head>
+	<body>
+		<h1>Compteur</h1>
+		<p class="routes">Routes utilisées par cette page :</p>
+		<ul>
+			<li><code>GET /cpt</code> (lire la valeur).</li>
+			<li><code>POST /incr</code> (incrémenter).</li>
+			<li><code>POST /decr</code> (décrémenter).</li>
+		</ul>
+		<p>Ces routes sont des conventions pour cet exemple — adaptez si votre API diffère.</p>
+		<section class="card" aria-labelledby="compteur-title">
+			<h2 id="compteur-title">Bloc Compteur</h2>
+			<div>
+				<div>Valeur actuelle :</div>
+				<div id="counterValue" class="counter-display">—</div>
+			</div>
+			<div class="controls">
+				<button id="btnDec">-1</button>
+				<button id="btnInc">+1</button>
+				<button id="btnRefresh">Rafraîchir (relecture depuis /cpt)</button>
+			</div>
+			<div id="status" class="status">Prêt</div>
+		</section>
+	</body>
+	<script src="app.js"></script>
+</html>

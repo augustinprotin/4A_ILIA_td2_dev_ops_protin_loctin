@@ -1,0 +1,9 @@
+FROM alpine:3.22.2
+
+RUN apk add python3 py3-pip py3-flask
+
+COPY . .
+
+EXPOSE 5000
+
+CMD ["flask","--app","server.py","--debug","run"]
