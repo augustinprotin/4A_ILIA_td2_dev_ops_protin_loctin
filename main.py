@@ -1,1 +1,2 @@
-print("Hello there !")
+def hello(msg="Hello World !"):
+    return msg
