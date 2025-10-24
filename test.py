@@ -23,3 +23,7 @@ def test_get_events():
 
 def test_get_sorted_events():
     assert C.get_sorted_events() == [(date3, 3, "Event 3"), ev1, ev2]
+
+
+def test_get_first_event_name():
+    assert C.get_first_event_name() == "Event 1"
