@@ -5,3 +5,6 @@ def test_hello():
 
 def test_calendar_create_event():
     assert main.calendar_create_event() == (0,0,0)
+
+def test_events():
+    assert main.events() == []
