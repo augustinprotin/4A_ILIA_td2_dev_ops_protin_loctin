@@ -12,6 +12,7 @@ def calendar_create_event():
     date = (T1,int(t),n)
     list_of_events.append(date)
     return date
+
 '''
 def events():
     for i in list_of_events :
