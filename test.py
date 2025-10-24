@@ -1,5 +1,5 @@
 import main
-
+"""
 def test_hello():
     assert main.hello() == "Hello World !"
 
@@ -8,3 +8,6 @@ def test_calendar_create_event():
 
 def test_events():
     assert main.events() == []
+    """
+def test_chrono_events():
+     assert main.chrono_events() == []

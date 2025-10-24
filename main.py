@@ -19,13 +19,13 @@ def events():
         print(i)
     return list_of_events
 
-'''
+
 def chrono_events():
     list_of_events.sort(key=lambda x: x[1]) #on dit de se baser sur list_of_events[1] pour utilisr le .sort()
     for i in list_of_events :
         print(i)
     return list_of_events
-
+'''
 def first_element():
     return list_of_events[0]
 
