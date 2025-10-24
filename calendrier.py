@@ -28,13 +28,13 @@ def get_events(list_events: list) -> list:
     return list_events
 
 
-def get_sorted_events() -> list:
+def get_sorted_events(list_events: list = events) -> list:
     """
     Retourne la liste des événements triés par ordre chronologique
     Returns:
         list: Liste des événements triés
     """
-    return sorted(events, key=lambda param: param[0])
+    return sorted(list_events, key=lambda param: param[0])
 
 
 def get_first_event_name(list_events: list = events) -> str:
