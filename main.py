@@ -1,9 +1,11 @@
-def hello(msg="Hello World !"):
-    return msg
 
 from datetime import datetime
 T1 = 0
 list_of_events = []
+
+def hello(msg="Hello World !"):
+    return msg
+
 
 def calendar_create_event():
     t=0
