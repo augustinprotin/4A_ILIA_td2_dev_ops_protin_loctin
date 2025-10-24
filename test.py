@@ -8,6 +8,10 @@ def test_calendar_create_event():
 
 def test_events():
     assert main.events() == []
-    """
+    
 def test_chrono_events():
      assert main.chrono_events() == []
+     """
+
+def test_first_element():
+    assert main.first_element() == NULL
