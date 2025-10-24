@@ -3,7 +3,7 @@ def hello(msg="Hello World !"):
 
 T1 = 0
 list_of_events = []
-'''
+
 def calendar_create_event():
     t=0
     n=0
@@ -12,7 +12,7 @@ def calendar_create_event():
     date = (T1,int(t),n)
     list_of_events.append(date)
     return date
-''''''
+'''
 def events():
     for i in list_of_events :
         print(i)
