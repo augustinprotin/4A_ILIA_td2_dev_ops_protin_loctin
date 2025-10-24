@@ -25,10 +25,10 @@ def chrono_events():
     for i in list_of_events :
         print(i)
     return list_of_events
-"""
+
 def first_element():
     return list_of_events[0]
-"""
+
 calendar_create_event()
 calendar_create_event()
 calendar_create_event()
