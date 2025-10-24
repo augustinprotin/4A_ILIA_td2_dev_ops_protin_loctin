@@ -14,9 +14,8 @@ def create_event(T1: datetime, t: int, n: str) -> tuple:
     Returns:
         tuple: (timestamp_début, durée, nom)
     """
-    event = (T1, t, n)
-    events.append(event)
-    return event
+    events.append((T1, t, n))
+    return (T1, t, n)
 
 
 def get_events(list_events: list) -> list:
