@@ -18,7 +18,7 @@ def create_event(T1: datetime, t: int, n: str) -> tuple:
     return (T1, t, n)
 
 
-def get_events(list_events: list) -> list:
+def get_events(list_events: list = events) -> list:
     """
     Retourne la liste de tous les événements
     Returns:
